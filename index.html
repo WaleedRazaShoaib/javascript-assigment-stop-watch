@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- ================================================================================ -->
+<!-- =================================== Stop watch work ============================ -->
+<!-- ================================================================================ -->
+
+
+    <div class="container">
+        <div class="time">
+            <span class="digit" id="hr">
+                00</span>
+            <span class="txt">Hr</span>
+            <span class="digit" id="min">
+                00</span>
+            <span class="txt">Min</span>
+            <span class="digit" id="sec">
+                00</span>
+            <span class="txt">Sec</span>
+            <span class="digit" id="counter">
+                00</span>
+            <span class="txt">MilliSec</span>
+
+        </div>
+
+
+<!-- ================================================================================ -->
+<!-- =================================== buttons work ============================ -->
+<!-- ================================================================================ -->
+
+
+        <div id="buttons">
+            <button onclick="starttimer()" class="btn" id="start">
+                Start</button>
+            <button onclick="stoptimer()" class="btn" id="stop">
+                Stop</button>
+            <button onclick="resettimer()" class="btn" id="reset">
+                Reset</button>
+        </div>
+
+
+
+
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
